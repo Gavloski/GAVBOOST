@@ -10,6 +10,16 @@ Site institucional e landing page da GavBoost, uma proposta independente de coac
 
 O site não oferece acesso à conta do jogador, promessa de elo ou partidas ranqueadas jogadas em nome do cliente.
 
+## Publicar no Render
+
+O repositório inclui `render.yaml` para criar o site estático do Render usando os arquivos da raiz.
+
+1. No Render, escolha **New > Blueprint**.
+2. Conecte o repositório **Gavloski/GAVBOOST** e selecione a branch **main**.
+3. Revise a configuração do serviço **gavboost** e clique em **Deploy Blueprint**.
+
+Também é possível escolher **New > Static Site**, conectar o mesmo repositório e usar a branch `main`. Configure o diretório publicado como `.` e deixe o comando de build vazio.
+
 ## Abrir localmente
 
 Abra `index.html` em um navegador. O projeto usa HTML, CSS e JavaScript sem etapa de build.
